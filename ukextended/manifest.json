@@ -1,8 +1,8 @@
 {
-  "name": "UK extended, English NZ & Te Reo",
-  "version": "2.0",
+  "name": "Theo keyboard",
+  "version": "1.0",
   "manifest_version": 3,
-  "description": "UK extended keyboard (backquote acting as a dead key for grave accent) and English NZ (macron available with right alt + vowel)",
+  "description": "Theo's keyboard with a voice dictation button",
   "background": {
     "service_worker": "background.js"
   },
@@ -11,26 +11,26 @@
   ],
   "input_components": [
     {
-      "name": "UK extended",
+      "name": "Theo keyboard",
       "type": "ime",
       "id": "uk_extended_ime",
-      "description": "UK extended keyboard (backquote acting as a dead key for grave accent",
-      "language": "en-GB",
+      "description": "Theo's keyboard with a voice dictation button",
+      "language": "en-US",
       "layouts": ["gb(extd)"]
     },
     {
-      "name": "English (NZ)",
+      "name": "Theo keyboard",
       "type": "ime",
       "id": "english_nz",
-      "description": "NZ english keyboard (macron accent on right alt + vowel)",
+      "description": "Theo's keyboard with a voice dictation button",
       "language": "en-US",
       "layouts": ["in(eng)"]
     },
     {
-      "name": "Te Reo",
+      "name": "Theo keyboard",
       "type": "ime",
       "id": "te_reo",
-      "description": "Te Reo keyboard layout",
+      "description": "Theo's keyboard with a voice dictation button",
       "language": "en-US",
       "layouts": ["in(eng)"]
     }
